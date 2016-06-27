@@ -53,6 +53,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+            
+            <fragment  
+        android:id="@+id/id_fragment_title"  
+        android:name="db.newthread.dancers.DancerFragment"  
+        android:layout_width="match_parent"  
+        android:layout_height="160dp" />  
         
        <LinearLayout
            android:id="@+id/linearLayout_one"

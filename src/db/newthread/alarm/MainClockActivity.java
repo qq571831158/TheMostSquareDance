@@ -63,7 +63,7 @@ public class MainClockActivity extends Activity{
 							// 显示闹铃设置成功的提示信息
 							Toast.makeText(MainClockActivity.this, "闹铃设置成功啦"+hourOfDay+"==="+minute
 								, Toast.LENGTH_SHORT).show();
-							
+							startActivity(intent);
 							
 						}
 					}, currentTime.get(Calendar.HOUR_OF_DAY), currentTime

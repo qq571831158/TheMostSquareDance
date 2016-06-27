@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:paddingLeft="10dp"
-            android:src="@drawable/ic_back_u" />
+            android:src="@drawable/ic_back_u"
+            android:onClick="register_back" />
 
         <TextView
             android:id="@+id/Registration_title_txt"
@@ -109,9 +110,10 @@
                 android:gravity="center"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
-                android:text="注　册"
+                android:text="提　交"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="register_submit" />
         </LinearLayout>
     </ScrollView>
 

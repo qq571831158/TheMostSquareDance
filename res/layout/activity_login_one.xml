@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="45dp"
         android:layout_alignParentTop="true"
-        android:background="@drawable/title_bar">
+        android:background="@drawable/login_btn_bg">
         <Button
             android:id="@+id/login_reback_btn"
             android:layout_width="70dp"
@@ -44,7 +44,7 @@
 	    android:layout_marginRight="20dp"
 	    android:singleLine="true"
 	    android:background="@drawable/login_editbox"
-	    android:hint="QQ号/微信号/手机号"/>
+	    android:hint="帐号"/>
 	<EditText 
 	    android:id="@+id/login_passwd_edit"
 	    android:layout_width="fill_parent"
@@ -73,7 +73,7 @@
 	        android:layout_marginTop="5dp"
 	        android:text="忘记密码?"
 	        android:textSize="16sp"
-	        android:textColor="#00f"
+	        android:textColor="#05f"
 	        android:background="#0000"
 	        android:onClick="login_pw"
 	        />
@@ -84,7 +84,7 @@
 	        android:layout_marginRight="20dp"
 	        android:layout_alignParentRight="true"
 	        android:text="登录"
-	        android:background="@drawable/btn_style_green"
+	        android:background="@drawable/login_btn_bg"
 	        android:textColor="#ffffff"
 	        android:textSize="18sp"
 	        android:onClick="login_mainSquareDance"

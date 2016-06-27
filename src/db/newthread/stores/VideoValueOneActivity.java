@@ -31,12 +31,13 @@ public class VideoValueOneActivity extends Activity{
 	 ////返回键按钮，返回上一级Activity
 	 @Override
 	 public void onBackPressed() {
-	  // TODO Auto-generated method stub
+	/*  // TODO Auto-generated method stub
 	  super.onBackPressed();
 	  Intent i =new Intent();
 	  i.setClass(VideoValueOneActivity.this,MainSquareDanceActivity.class);
 	  startActivity(i);
-	  finish();
+	  finish();*/
+      this.finish();
 	 }
 	 @Override
 	 protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,8 @@ public class VideoValueOneActivity extends Activity{
 	         );
 	       }
 	     });
+	     
+	     playVideo(strVideoPath);
 	   }
 	 
 	 //媒体播放动作函数
@@ -146,7 +149,7 @@ public class VideoValueOneActivity extends Activity{
 //	       4、文本，菜单项的显示文本
 	 
 	  menu.add(0,0,1,"返回");//
-	     menu.add(0,1,2,"播放视频"); 
+	     menu.add(0,1,2,"重复播放"); 
 	     menu.add(0,3,3,"全屏/窗口切换"); 
 	     
 	  return super.onCreateOptionsMenu(menu);
@@ -193,6 +196,7 @@ public class VideoValueOneActivity extends Activity{
 	        }    
 	      }
 	      break;
+	     
 	     }     
 	 //    return true;
 	    return super.onOptionsItemSelected(item); 

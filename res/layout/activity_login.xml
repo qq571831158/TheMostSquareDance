@@ -46,7 +46,7 @@
             android:gravity="center"
             android:paddingLeft="130dp"
             android:paddingRight="130dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:text="登录"
             android:textColor="#ffffff"
             android:textSize="18sp"

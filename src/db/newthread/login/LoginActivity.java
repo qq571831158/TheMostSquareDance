@@ -1,6 +1,6 @@
 package db.newthread.login;
 
-import db.newthread.main.MainSquareDanceActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +20,7 @@ public class LoginActivity extends Activity{
       }  
     public void welcome_register(View v) {  
       	Intent intent = new Intent();
-		intent.setClass(LoginActivity.this,MainSquareDanceActivity.class);
+		intent.setClass(LoginActivity.this,RegisterActivity.class);
 		startActivity(intent);
 		//this.finish();
       }  
