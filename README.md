@@ -1,3 +1,1 @@
-# TheMostSquareDance
-The project is about square dance
-git init
+最炫广场舞（Android学习项目），已初步完成界面搭建，目前正在学习后台搭建及功能接口实现，力争在大学毕业前做到应用发布的要求
